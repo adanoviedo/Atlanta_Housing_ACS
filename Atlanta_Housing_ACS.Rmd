@@ -288,11 +288,3 @@ B25105_001: Median monthly owner costs (including mortgage, insurance, taxes, et
 **Disclaimer**
 
 This dashboard is intended for educational and demonstration purposes only. While the data are real and sourced from the U.S. Census Bureau, they are presented without adjustment or deeper contextual analysis. Visualizations are exploratory tools and should not be used for official decision-making, policy development, or investment purposes. Users should consult the original ACS documentation and conduct appropriate methodological review before drawing conclusions from the data.
-
-```{js}
-<script>
-$("body").on("shown.bs.tab", "a[data-toggle='tab']", function(e) {
-   Shiny.setInputValue("active_tab", $(e.target).parent().index());
-})
-</script>
-```
